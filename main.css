@@ -1,7 +1,20 @@
-.menu a{
-  color: #5a5a5a;
-  font-size: 24px;
+body {
+    background-image: url('img/wall.jpg');
 }
-.menu li{
-	display: inline;
+ul{
+    text-align: center;
+}
+.menu li {
+    margin: 5px;
+    list-style-type: none;
+    display: inline;
+}
+a {
+    color: azure;
+}
+section {
+    color: aliceblue;
+}
+footer {
+    color: aliceblue;
 }

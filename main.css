@@ -8,14 +8,19 @@ html, body, main { height: 100%; }
                        HEADER
 ****************************************************/
 header{
-    background-color: rgba(255, 183, 37, 1);
+    background-image: url('img/header1.png');
+    background-size: auto;
+    /*background-color: rgba(255, 183, 37, 1);*/
     color: beige;
     font-family: 'Open Sans', sans-serif;
     /*height: 12em;*/
 }
 
 h1{
+    padding-top:0.75em;
+    padding-bottom:0.5em;
     text-align: center;
+    opacity: 0.75;
 }
 nav{
     width:60%;
@@ -28,14 +33,15 @@ nav div {
     height: 2em;
     line-height: 2em;
     margin: 0.5em;
+    opacity: 0.65;
 }
 nav a{
     text-decoration: none;
     color: beige;
-
 }
 nav div:hover{
-    background-color: chartreuse;
+    background-color: aliceblue;
+    color: rgba(255, 150, 52, 1);
 }
 nav div:active{
     background-color: yellow;
@@ -44,13 +50,15 @@ nav div:active{
     background-color: rgba(255, 150, 52, 1);
     height: 0.75em;
     margin-top: 1em;
+    opacity: 0.8;
 }
 /****************************************************
                     MAIN
 ****************************************************/
 main {
     background-color: beige;
-    padding: 1em;
+    padding: 2em 1em;
+
 
 }
 main h2 {
@@ -68,6 +76,7 @@ footer{
     background-color: rgba(255, 183, 37, 1);
     color: antiquewhite;
     height: 2.5em;
+    opacity:0.8;
 }
 footer p {
     text-align: center;
@@ -97,6 +106,10 @@ footer p {
         line-height: 1em;
         margin-left: 2em;
         margin-right: 2em;
+    }
+
+    main {
+        margin: 0 3em;
     }
 
     .line {

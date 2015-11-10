@@ -11,33 +11,39 @@ header{
     background-color: rgba(255, 183, 37, 1);
     color: beige;
     font-family: 'Open Sans', sans-serif;
-}
-header h1 {
-    text-align: center;
-    margin-bottom: 0.5em;
-}
-header li div{
-    text-align: center;
-    background-color: #ff7d28;
-    width: 80%;
-    margin: 0 auto;
-    list-style-type: none;
-    margin-bottom: 0.75em;
-    line-height: 2.5em;
-    height: 2.5em;
+    /*height: 12em;*/
 }
 
-header li a {
+h1{
+    text-align: center;
+}
+nav{
+    width:60%;
+    margin: 0 auto;
+    text-align: center;
+}
+nav div {
+
+    background-color: rgba(255, 150, 52, 1);
+    height: 2em;
+    line-height: 2em;
+    margin: 0.5em;
+}
+nav div a{
     text-decoration: none;
     color: beige;
+
 }
-header li div:hover{
-    background-color: rgba(255, 224, 61, 1);
-    cursor: pointer;
+nav div:hover{
+    background-color: chartreuse;
+}
+nav div:active{
+    background-color: aqua;
 }
 .line{
+    background-color: rgba(255, 150, 52, 1);
     height: 0.75em;
-    background-color: #ff7d28;
+    margin-top: 1em;
 }
 /****************************************************
                     MAIN
@@ -75,5 +81,28 @@ footer p {
 ********************************************************/
 
 @media (min-width: 600px) {
+    h1 {
+        font-size: 1.8em;
+        margin-bottom: 0.75em;
+    }
 
+    nav {
+        width: 100%
+    }
+
+    nav div {
+        display: inline;
+        padding: 0.5em 2em;
+        height: 0.5em;
+        line-height: 1em;
+        margin-left: 2em;
+        margin-right: 2em;
+    }
+
+    .line {
+        background-color: rgba(255, 150, 52, 1);
+        height: 0.75em;
+        margin-top: 0.5em;
+    }
 }
+

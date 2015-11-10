@@ -29,7 +29,7 @@ nav div {
     line-height: 2em;
     margin: 0.5em;
 }
-nav div a{
+nav a{
     text-decoration: none;
     color: beige;
 
@@ -38,7 +38,7 @@ nav div:hover{
     background-color: chartreuse;
 }
 nav div:active{
-    background-color: aqua;
+    background-color: yellow;
 }
 .line{
     background-color: rgba(255, 150, 52, 1);

@@ -1,20 +1,71 @@
-body {
-    background-image: url('img/wall.jpg');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
 }
-ul{
+html, body, main { height: 100%; }
+/**************************************************
+                       HEADER
+****************************************************/
+header{
+    background-color: rgba(255, 183, 37, 1);
+    color: beige;
+    font-family: 'Open Sans', sans-serif;
+}
+header h1 {
     text-align: center;
+    margin-bottom: 0.5em;
 }
-.menu li {
-    margin: 5px;
+header li div{
+    text-align: center;
+    background-color: #ff7d28;
+    width: 80%;
+    margin: 0 auto;
     list-style-type: none;
-    display: inline;
+    margin-bottom: 0.75em;
+    line-height: 2.5em;
+    height: 2.5em;
 }
-a {
-    color: azure;
+
+header li a {
+    text-decoration: none;
+    color: beige;
 }
-section {
-    color: aliceblue;
+header li div:hover{
+    background-color: rgba(255, 224, 61, 1);
+    cursor: pointer;
 }
-footer {
-    color: aliceblue;
+.line{
+    height: 0.75em;
+    background-color: #ff7d28;
+}
+/****************************************************
+                    MAIN
+****************************************************/
+main {
+    background-color: beige;
+    padding: 1em;
+
+}
+main h2 {
+    margin-bottom: 0.75em;
+}
+
+main p {
+    font-size: 0.9em;
+}
+
+/*****************************************************
+                    FOOT
+******************************************************/
+footer{
+    background-color: rgba(255, 183, 37, 1);
+    color: antiquewhite;
+    height: 2.5em;
+}
+footer p {
+    text-align: center;
+    font-style: italic;
+    font-size: .75em;
+    line-height: 2em
 }

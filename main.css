@@ -8,7 +8,7 @@ html, body, main { height: 100%; }
                        HEADER
 ****************************************************/
 header{
-    background-image: url('img/header1.png');
+    background-image: url('images/header1.png');
     background-size: auto;
     /*background-color: rgba(255, 183, 37, 1);*/
     color: beige;

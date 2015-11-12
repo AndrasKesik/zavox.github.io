@@ -1,15 +1,15 @@
 var main = function() {
     $('#button1').click(function(){
-        $('#proba').fadeOut(3000);
-        $('#proba1').fadeOut(2000);
-        $('#proba2').fadeOut(1000);
+        $('#proba').fadeTo('slow',0);
+        $('#proba1').fadeTo('normal',0);
+        $('#proba2').fadeTo('fast',0);
 
     });
 
     $('#button2').click(function(){
-        $('#proba').fadeIn(1000);
-        $('#proba1').fadeIn(2000);
-        $('#proba2').fadeIn(3000);
+        $('#proba').fadeTo('fast',1);
+        $('#proba1').fadeTo('normal',1);
+        $('#proba2').fadeTo('slow',1);
 
 
     });

@@ -54,7 +54,6 @@ nav div:active{
     height: 0.75em;
     margin-top: 1em;
     opacity: 0.8;
-    -webkit-box-shadow: ;
 }
 .thumbnail {
     height: 5em;
@@ -99,7 +98,7 @@ article{
     width:80%;
     text-align: center;
     margin-left:2em;
-    margin-right:2em
+    margin-right:2em;
     float:none;
 }
 h2{
@@ -107,12 +106,6 @@ h2{
 }
 aside {
     display:none
-}
-
-#logo {
-    max-width
-    margin: 3em auto;
-    display:block;
 }
 
 /*****************************************************
@@ -239,7 +232,7 @@ footer p {
         width:80%;
         text-align: center;
         margin-left:4em;
-        margin-right:2em
+        margin-right:2em;
         float:none;
 
     }

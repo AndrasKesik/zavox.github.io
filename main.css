@@ -4,6 +4,7 @@
     font-family: 'Open Sans', sans-serif;
 }
 html, body, main { height: 100%; }
+body > main { height: auto; min-height: 100%; }
 /**************************************************
                        HEADER
 ****************************************************/
@@ -55,13 +56,18 @@ nav div:active{
     opacity: 0.8;
     -webkit-box-shadow: ;
 }
+.thumbnail {
+    height: 5em;
+    width: 15em;
+    display: block;
+    margin: 0.5em auto;
+}
 /****************************************************
                     MAIN
 ****************************************************/
 main {
     background-color: beige;
-    padding: 2em 1em;
-
+    padding: 2.5em 1em;
 
 }
 main h2 {
@@ -71,7 +77,7 @@ main h2 {
 main p {
     font-size: 0.9em;
 }
-main section div {
+.cucc {
     height:2rem;
     width:33%;
     background-color: rgba(255, 125, 40, 1);
@@ -82,16 +88,35 @@ iframe {
     height:100%
 }
 
-.thumbnail{
-    width:80%
-    height: 2em;
-    margin: 0.5em auto;
-
+section {
+    margin-left: 2em;
 }
+h4 {
+margin-top:1em;
+}
+article{
+    width: 80%;
+    width:80%;
+    text-align: center;
+    margin-left:2em;
+    margin-right:2em
+    float:none;
+}
+h2{
+    text-align:center;
+}
+aside {
+    display:none
+}
+
 /*****************************************************
                     FOOT
 ******************************************************/
 footer{
+    clear: both;
+    position: relative;
+    z-index: 10;
+    margin-top: -3em;
     background-color: rgba(255, 183, 37, 1);
     color: antiquewhite;
     height: 2.5em;
@@ -137,14 +162,147 @@ footer p {
         height: 0.75em;
         margin-top: 0.5em;
     }
-    .thumbnail {
-        float:right;
-    }
-}
 
+    main h2 {
+        text-align: center;
+    }
+
+}
 .clear {
     clear:both
 }
 
 
+@media (min-width: 600px) and (max-width: 700px) {
+    .thumbnail {
+        height: 5em;
+        width: 14.5em;
+        display: block;
+        float:none;
+        margin: 0.5em auto;
+    }
+    #one {
+        float:left;
+    }
+    #two {
+        float:right;
 
+    }
+}
+
+@media (min-width: 1150px) {
+    section {
+        width: 70%;
+        float:left;
+        display:inline;
+        margin-left: 5em;
+    }
+    #one{
+        clear:right;
+    }
+    #two{
+        clear:right;
+    }
+    #three{
+        clear:right;
+    }
+}
+
+@media (min-width: 700px) {
+    aside{
+        display: block;
+        margin: 0 0;
+        padding: 0 0;
+    }
+    section{
+        width: 50%;
+        float: left;
+        display: inline;
+        margin-left: 3em;
+    }
+    article{
+        width:80%;
+        text-align: center;
+        margin-left:4em;
+        margin-right:2em
+        float:none;
+
+    }
+    .thumbnail {
+        float: right;
+        display: inline-block;
+        width: 15em;
+    }
+
+    main h2 {
+        text-align: center;
+    }
+    #img1 {
+        float:none;
+        height: auto;
+        width: auto;
+        max-width: 30em;
+        max-height: 20em;
+        margin-top: 2em;
+        margin-right: 20%;
+        margin-left: 20%;
+    }
+}
+
+@media (min-width:900px) {
+    article{
+        width: 30%;
+        margin-left: 2em;
+        margin-top: 2em;
+        text-align: left;
+        float:left;
+    }
+    aside{
+        display: block;
+    }
+
+    #img1 {
+        float:right;
+        height: auto;
+        width: auto;
+        max-width: 30em;
+        max-height: 20em;
+        margin-top: 2em;
+        margin-right: 7%;
+        margin-left: 3%;
+        display:none;
+    }
+    #img2 {
+        float:right;
+        height: auto;
+        width: auto;
+        max-width: 30em;
+        max-height: 20em;
+        margin-top: 2em;
+        margin-right: 7%;
+        margin-left: 3%;
+        display:none;
+    }
+    #img3 {
+        float:right;
+        height: auto;
+        width: auto;
+        max-width: 30em;
+        max-height: 20em;
+        margin-top: 2em;
+        margin-right: 7%;
+        margin-left: 3%;
+        display:none;
+    }
+    #img4 {
+        float:right;
+        height: auto;
+        width: auto;
+        max-width: 30em;
+        max-height: 20em;
+        margin-top: 2em;
+        margin-right: 7%;
+        margin-left: 3%;
+        display:none;
+    }
+}

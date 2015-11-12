@@ -1,19 +1,8 @@
-var main = function() {
-    $('#button1').click(function(){
-        $('#proba').fadeTo('slow',0);
-        $('#proba1').fadeTo('normal',0);
-        $('#proba2').fadeTo('fast',0);
-
-    });
-
-    $('#button2').click(function(){
-        $('#proba').fadeTo('fast',1);
-        $('#proba1').fadeTo('normal',1);
-        $('#proba2').fadeTo('slow',1);
-
-
-    });
-
+var slide = function(){
+    $("#img1").fadeIn(1000).delay(10500).fadeOut(1500); //13000
+    $("#img2").delay(13000).fadeIn(1500).delay(11000).fadeOut(1500); //27000
+    $("#img3").delay(27000).fadeIn(1500).delay(11000).fadeOut(1500); //41000
+    $("#img4").delay(41000).fadeIn(1500).delay(11000).fadeOut(1500, slide); //55000
 };
 
-$(document).ready(main);
+$(document).ready(slide);

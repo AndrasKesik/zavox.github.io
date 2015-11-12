@@ -203,6 +203,9 @@ footer p {
 }
 
 @media (min-width: 1150px) {
+    article {
+        width: 50%;
+    }
     section {
         width: 70%;
         float:left;
@@ -301,7 +304,7 @@ footer p {
 
 @media (min-width:900px) {
     article{
-        width: 22%;
+        width: 30%;
         margin-left: 2em;
         margin-top: 2em;
         text-align: left;
@@ -329,8 +332,8 @@ footer p {
         max-width: 30em;
         max-height: 20em;
         margin-top: 2em;
-        margin-right: 7%;
-        margin-left: 3%;
+        margin-right: 2%;
+        margin-left: 1%;
         display:none;
     }
     #img3 {
@@ -340,8 +343,8 @@ footer p {
         max-width: 30em;
         max-height: 20em;
         margin-top: 2em;
-        margin-right: 7%;
-        margin-left: 3%;
+        margin-right: 2%;
+        margin-left: 1%;
         display:none;
     }
     #img4 {

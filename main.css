@@ -297,11 +297,12 @@ footer p {
 
 @media (min-width:900px) {
     article{
-        width: 30%;
-        margin-left: 2em;
+        width: 29%;
+        margin-left: 1.9em;
         margin-top: 2em;
         text-align: left;
         float:left;
+        margin-right: 0;
     }
     aside{
         display: block;
@@ -314,7 +315,7 @@ footer p {
         max-width: 30em;
         max-height: 20em;
         margin-top: 2em;
-        margin-right: 7%;
+        margin-right: 5%;
         margin-left: 3%;
         display:none;
     }
@@ -347,7 +348,7 @@ footer p {
         max-width: 30em;
         max-height: 20em;
         margin-top: 2em;
-        margin-right: 7%;
+        margin-right: 5%;
         margin-left: 3%;
         display:none;
     }

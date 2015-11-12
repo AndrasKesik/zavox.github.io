@@ -175,7 +175,7 @@ footer p {
 }
 
 
-@media (min-width: 600px) and (max-width: 700px) {
+@media (min-width: 600px) and (max-width: 705px) {
     #logo {
         display:none;
     }
@@ -216,7 +216,7 @@ footer p {
     }
 }
 
-@media (min-width: 700px) {
+@media (min-width: 705px) {
     aside{
         display: block;
         margin: 0 0;

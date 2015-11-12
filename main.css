@@ -110,6 +110,7 @@ aside {
 }
 
 #logo {
+    max-width
     margin: 3em auto;
     display:block;
 }
